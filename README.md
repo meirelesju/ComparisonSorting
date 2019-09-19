@@ -1,4 +1,6 @@
-# Merge Sort
+# Comparison Sort
+
+##Merge Sort
 
 
 O Merge Sort é um algoritmo de ordenação por comparação do tipo "dividir para conquistar".

@@ -28,6 +28,21 @@ e a partir desses elementos, reordená-los e colocá-los novamente no array de e
 Sem esses valores, precisaria de um código explícito para detectar e manipular o final das listas.
 
 
+## QuickSort
+
+O algoritmo ordena vetores usando a mesma técnica do "dividir para conquistar". A estratégia consiste em rearranjar as chaves de modo que as chaves "menores" fiquem antes das chaves "maiores". Em seguida o quicksort ordena as duas sublistas de chaves menores e maiores recursivamente até que a lista completa se encontre ordenada. Os passos são:
+
+```
+1. Escolha um elemento da lista, denominado pivô (no caso atual será o primeiro elemento);
+2. Particiona
+3. Recursivamente ordene a sub lista dos elementos menores e a sub lista dos elementos maiores; 
+```
+
+* Particionar consiste em reorganizar a lista de forma que todos os elementos anteriores ao pivô sejam menores que ele, 
+e todos os elementos após o pivô sejam maiores que ele. Ao fim do processo o pivô estará em sua posição final 
+e haverá duas sub listas não ordenadas. Essa operação é denominada partition;
+
+
 ## Autores
 
 * **Julianny Meireles** - *All work* - [Meirelesju](https://github.com/meirelesju)
